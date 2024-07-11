@@ -1,27 +1,11 @@
 # MyMoviesWebapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.7.
+### Highlight something in your project that you thought was especially interesting or significant to your overall implementation.
+> Implementing mechanism for fetching token from the server and storing it in the local storage and then make request once again. 
+> Proper display of the poster was also tricky, but gave a lot of fun. 
 
-## Development server
+### Tell us what you are most pleased or proud of with your implementation.
+> The code is small, but everything is working as expected. I wasn't asked for the design, but it was easy to implement it with the help of the tailwind. I used modern angular features like signals and control flow.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Given more time, what next feature or improvement would you like to add to your project?
+> Unit tests, more detailed error handling, maybe some kind of store like for example NgRx.
