@@ -1,0 +1,19 @@
+<div class="h-60  bg-white rounded flex hover:bg-gray-100">
+  <div class="h-full w-1/5 relative flex rounded">
+    @if (posterSrc()) {
+      <img
+        class="rounded object-cover"
+        [ngSrc]="posterSrc()!"
+        [alt]="movieTitle() + ' poster'"
+        fill
+        priority
+      />
+    } @else {
+      <div class="h-full w-full bg-gray-500 flex text-white justify-center items-center rounded">No poster</div>
+    }
+  </div>
+  <h1 class="text-4xl my-auto ml-4">{{ movieTitle() }}</h1>
+  @if (movieRating()) {
+    <h5 class="text-2xl my-auto ml-auto mr-4">Rate: {{ movieRating() }}</h5>
+  }
+</div>

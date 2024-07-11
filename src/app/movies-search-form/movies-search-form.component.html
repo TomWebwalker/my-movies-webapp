@@ -1,0 +1,20 @@
+<form [formGroup]="form" (ngSubmit)="formSubmitHandler()" class="flex gap-2">
+  <input
+    type="text"
+    formControlName="search"
+    class="input"
+    placeholder="Title"/>
+
+  <select
+    formControlName="genre"
+    class="input">
+    <option selected value="">Choose genre</option>
+    @for (genre of genresList(); track genre.id) {
+      <option [value]="genre.title">{{ genre.title }}</option>
+    }
+  </select>
+
+  <button type="submit" class="btn">
+    Search
+  </button>
+</form>
